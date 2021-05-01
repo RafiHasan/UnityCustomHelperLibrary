@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "displayName": "UnityCustomHelperLibrary",
   "description": "Helper Tools for many tasks.",
-  "unity": "2020.3.4",
+  "unity": "2019.4",
   "author": {
-    "name": "Raqibul Hasan Rafi",
     "email": "raqibulhasan1994@gmail.com",
+    "name": "Raqibul Hasan Rafi",
     "url": ""
   }
 }
