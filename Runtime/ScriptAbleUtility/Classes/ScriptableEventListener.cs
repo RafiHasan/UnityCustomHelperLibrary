@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GameEventListener : MonoBehaviour
+public class ScriptableEventListener : MonoBehaviour
 {
-    public GameEvent Event;
+    public ScriptableEvent Event;
     public UnityEvent Response;
 
     void OnEnable()

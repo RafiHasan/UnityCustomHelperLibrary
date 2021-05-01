@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class GameEvent : ScriptableObject
+public class ScriptableEvent : ScriptableObject
 {
-    private List<GameEventListener> listeners = new List<GameEventListener>();
+    private List<ScriptableEventListener> listeners = new List<ScriptableEventListener>();
 
     public void Raise()
     {
@@ -14,16 +14,13 @@ public class GameEvent : ScriptableObject
         }
     }
 
-    public void RegisterListener(GameEventListener listener)
+    public void RegisterListener(ScriptableEventListener listener)
     {
         listeners.Add(listener);
     }
 
-    public void UnregisterListener(GameEventListener listener)
+    public void UnregisterListener(ScriptableEventListener listener)
     {
         listeners.Remove(listener);
     }
-
-    
-
 }
